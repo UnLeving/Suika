@@ -659,7 +659,7 @@ Transform:
   m_GameObject: {fileID: 977195453}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.17, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.45, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1258,7 +1258,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftWallTransform: {fileID: 1076487068}
   rightWallTransform: {fileID: 15584820}
-  speed: 4
+  speed: 40
+  wallShift: 0.25
 --- !u!114 &1878091906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1313,8 +1314,9 @@ MonoBehaviour:
   - {fileID: 2959000862078438287, guid: fbc6a4a6102010d46aef2f07e1938874, type: 3}
   - {fileID: -4862929798118691131, guid: df9f161012905524490362043fabf82c, type: 3}
   - {fileID: 6420638667381766463, guid: adb3802b8fad66147b9070d66c99bc22, type: 3}
-  spawnIndex: 0
+  spawnIndex: -1
   spawnDelay: 1
+  dontSpawnFromEnd: 4
 --- !u!1 &2021857599
 GameObject:
   m_ObjectHideFlags: 0
