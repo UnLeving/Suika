@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 15584821}
   m_Layer: 0
   m_Name: rightWall
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 143504928}
   m_Layer: 0
   m_Name: bottom
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -646,7 +646,7 @@ GameObject:
   - component: {fileID: 1076487069}
   m_Layer: 0
   m_Name: leftWall
-  m_TagString: Untagged
+  m_TagString: Border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -779,6 +779,7 @@ GameObject:
   - component: {fileID: 1878091903}
   - component: {fileID: 1878091905}
   - component: {fileID: 1878091906}
+  - component: {fileID: 1878091907}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -901,6 +902,31 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1878091907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878091902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16604e56adaea8439b7970544a90c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitsPrefabs:
+  - {fileID: 5575083605974947943, guid: 7b9637367cb56834996aaad85a0e8ba7, type: 3}
+  - {fileID: -3021033493401462273, guid: 9d83a24b14127e54b9a89882a56eeeb6, type: 3}
+  - {fileID: -1161577568833713514, guid: 1611d06fcbf3326408685ac80438a8c2, type: 3}
+  - {fileID: -9199936237961962477, guid: f179f866bbc2c9344bf45f8b1aabbc4d, type: 3}
+  - {fileID: 1336266642927227371, guid: 9a78f2f155e901c4fb85dfdcd58bd436, type: 3}
+  - {fileID: -6407456287883830170, guid: 640be1fb1f3599c4c97ff9d246a83462, type: 3}
+  - {fileID: 6335437651197789729, guid: 0a361c0a4c66f944bb65e2ff94fe1914, type: 3}
+  - {fileID: -2728738258218516164, guid: 8b38ae3dd237eaf46aa9c33225cc04c8, type: 3}
+  - {fileID: 2959000862078438287, guid: fbc6a4a6102010d46aef2f07e1938874, type: 3}
+  - {fileID: -4862929798118691131, guid: df9f161012905524490362043fabf82c, type: 3}
+  - {fileID: 6420638667381766463, guid: adb3802b8fad66147b9070d66c99bc22, type: 3}
+  spawnIndex: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
