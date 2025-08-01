@@ -49,6 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ignore: 0
   ind: 0
+  rb: {fileID: 0}
 --- !u!212 &5446434227343409283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -148,7 +149,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8200352801198260347}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
